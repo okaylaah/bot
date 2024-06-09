@@ -27,7 +27,7 @@ async def heh(ctx, count_heh = 5):
 async def password(ctx, panjang = 5):
     await ctx.send(gen_pass(panjang))
 
-@cool.command(name='bot')
+@bot.command(name='bot')
 async def _bot(ctx):
     """Is the bot cool?"""
     await ctx.send('Yes, the bot is cool.')
